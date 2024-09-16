@@ -52,7 +52,7 @@ html, body {
 
 .ui_container {
     position: relative;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@ html, body {
 }
 
 .spin {
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .wheel_button {
