@@ -77,19 +77,25 @@ html, body {
     background-color: rgba(0, 0, 0, 0);
     width: 80px;
     height: 40px;
-    border: 3px solid black;
+    border: 2.5px solid rgb(255, 249, 223);
     border-radius: 30px;
-}
-
-.button:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    cursor:pointer;
+    color: white;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    letter-spacing: 0.8px;
+    font-weight: 700;
 }
 
 .button:active {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(101, 101, 101, 0.526);
 }
 
+
+@media (min-width: 900px) {
+    .button:hover {
+        cursor: pointer;
+    }
+}
 
 @media (max-width: 900px) {
 
