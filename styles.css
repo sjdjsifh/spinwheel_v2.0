@@ -117,9 +117,9 @@ html, body {
         top: 10px;
     }
 
-    .button {
+    /* .button {
         margin: 10px;
-    }
+    } */
 
     .wheel_buttons_container {
         flex-direction: column;
