@@ -52,8 +52,7 @@ html, body {
 
 .ui_container {
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,6 +83,7 @@ html, body {
     font-size: 19px;
     letter-spacing: 0.8px;
     font-weight: 700;
+    text-align: center;
 }
 
 .button:active {
@@ -126,8 +126,6 @@ html, body {
 
     .wheel_buttons_container {
         flex-direction: column;
-        margin-top: 10px;
-        margin-bottom: 20px;
     }
 
     .main_container {
@@ -139,6 +137,10 @@ html, body {
     .app {
         background-color: rgba(0, 0, 0, 0.55);
     }
+
+    /* @media (max-height: 750) {
+        
+    } */
 
     @media (min-height: 750px) {
         .app {
