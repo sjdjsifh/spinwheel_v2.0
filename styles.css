@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.main_container {
+    background-color: rgb(23, 46, 57);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wheel_container {
+    background-color: white;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 50px;
+    min-height: 50px;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
