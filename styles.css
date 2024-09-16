@@ -116,7 +116,8 @@ html, body {
     }
 
     .wheel_button {
-        margin: 5px;
+        margin-bottom: 10px;
+        width: 250px;
     }
 
     .wheel_buttons_container {
