@@ -70,7 +70,8 @@ html, body {
 }
 
 .wheel_button {
-    margin: 0 50px 0 50px;
+    margin: 0 7px 0 7px;
+    width: 200px !important;
 }
 
 .button {
@@ -126,6 +127,9 @@ html, body {
 
     .main_container {
         background-image: url("img/bg_phone.avif");
+        background-size: cover;
+        background-repeat: no-repeat;
+
     }
 
     .app {
