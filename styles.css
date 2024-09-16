@@ -11,15 +11,20 @@ html, body {
     padding: 0;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .wheel_container {
     background-color: white;
-    max-width: 500px;
-    max-height: 500px;
-    min-width: 50px;
-    min-height: 50px;
-    width: 300px;
-    height: 300px;
-    display: block;
+    width: 500px;
+    height: 500px;
 }
+
+
+@media (max-width: 520px) {
+    .wheel_container {
+        width: 300px;
+        height: 300px;
+    }
+}
+
