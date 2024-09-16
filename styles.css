@@ -115,9 +115,13 @@ html, body {
         top: 10px;
     }
 
+    .spin {
+        width: 100px !important;
+    }
+
     .wheel_button {
         margin-bottom: 10px;
-        width: 250px;
+        width: 250px !important;
     }
 
     .wheel_buttons_container {
@@ -130,7 +134,6 @@ html, body {
         background-image: url("img/bg_phone.avif");
         background-size: cover;
         background-repeat: no-repeat;
-
     }
 
     .app {
